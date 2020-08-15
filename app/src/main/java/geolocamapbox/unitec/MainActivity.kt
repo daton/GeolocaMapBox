@@ -130,7 +130,7 @@ class MainActivity : AppCompatActivity(),OnMapReadyCallback, PermissionsListener
         super.onCreate(savedInstanceState)
         //Antes de invocar el token se de hacer en esta seccion antes del activit_main
         //sino lo haces te marcara error al ejecutar la app.
-        Mapbox.getInstance(this,"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+        Mapbox.getInstance(this,"pk.eyJ1IjoiZ.4XHbte4bh6khF8M_E94qQA")
 
         setContentView(R.layout.activity_main)
         //Ahora si inicializamos el mapView para que contenga neustro mapa
